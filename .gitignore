@@ -1,0 +1,7 @@
+/.breakpoints
+/.cache
+/last_dict.pkl
+/past_entities_dict.pkl
+/poetry.lock
+/pyproject.toml
+/__pycache__
