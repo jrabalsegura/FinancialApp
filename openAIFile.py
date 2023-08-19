@@ -67,7 +67,6 @@ def getDecision(text, symbol):
             return response['choices'][0]['message']['content']
 
         except openai.OpenAIError as e:
-            # You might want to narrow down to specific error codes related to server errors
             print(f"An error occurred: {e}. Retrying in 10 seconds...")
             time.sleep(10)
         else:
